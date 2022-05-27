@@ -18,7 +18,7 @@ public class BitcoinTask {
     private static final Logger LOG = LoggerFactory.getLogger(BitcoinTask.class);
 
     @Scheduled(fixedRate = 3000)
-    public void scheduledTask() {
+    public void autoInvestTask() {
         LOG.info("任务执行时间：" + LocalDateTime.now());
     }
 
